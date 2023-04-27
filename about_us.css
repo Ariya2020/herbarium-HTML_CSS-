@@ -1,0 +1,128 @@
+/* ===========================
+======= سبک بدنه ========
+=========================== */
+*{
+    font-size: medium;
+    background: #cdcdcf;
+}
+.h11{
+    position: absolute;
+    top: 130px;
+    left: 32%;
+    font-size: xx-large;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.h1{
+    background-image:linear-gradient(to right,#2f3640,#9aacc6);
+    
+    width: 1100px;
+     height:40px;
+     text-align: center;
+     padding: 10px;
+     border-radius: 50%;
+     font-style: italic;
+     font-size: xx-large;
+     color: #b2bec3;
+}
+body {
+    padding: 50px 100px;
+    font-size: 13px;
+    font-style: Verdana, Tahoma, sans-serif;
+    }
+    ::-webkit-input-placeholder { color: rgb(218, 223, 225); }
+
+        :-moz-placeholder { color: rgb(105, 101, 101); }
+
+        ::-moz-placeholder { color: rgb(88, 85, 85); }
+
+        :-ms-input-placeholder { color: rgb(105, 103, 103); }
+    
+    /*====== h2 خاصیت ====== */
+    .h2 {
+    margin-bottom: 20px;
+    color: #474E69;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    direction: ltr;
+   
+    }
+    
+    /* ===========================
+    ====== فرم ارتباط =======
+    =========================== */
+    
+    .input, textarea {
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+    width: 200px;
+    color: #999999;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    }
+    
+    /*====== textarea خاصیت ====== */
+    .textarea {
+    width: 400px;
+    height: 150px;
+    max-width: 400px;
+    line-height: 18px;
+    }
+    
+    /*====== قرار گیری ماوس روی کادر های متنی ====== */
+    
+    .input:hover, textarea:hover,
+    .input:focus, textarea:focus {
+    border-color: 1px solid #C9C9C9;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+    }
+    
+    /*====== label خاصیت ====== */
+    .form label {
+    margin-left: 10px;
+    color: #4b4949;
+    font-family:Tahoma;
+    }
+    
+    /* ===========================
+    ====== دکمه ارسال ======
+    =========================== */
+    
+    .submit input {
+    width: 100px;
+    height: 40px;
+    background-color: #474E69;
+    color: #FFF;
+    border-radius: 3px;
+    font-family:Tahoma;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    }
+    .cordinate{
+       
+        color: rgb(46, 16, 166);
+        
+       
+    }
+    .cordinate1{
+        color: rgb(46, 16, 166);
+    }
+    .Descriptionofplant{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;
+        font-weight: bold;
+        color:  black;
+    }
+    .submit{
+        background-color: red;
+        padding: 10px;
+        border-radius: 20px;
+        align-items: center;
+        justify-items: center;
+        position: absolute;
+        top: 272%;
+        left: 80%;
+    }

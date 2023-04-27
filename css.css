@@ -1,0 +1,72 @@
+*{
+    padding: 10px 5px 10px 5px;
+    margin: 5px ;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(253, 250, 250);
+    height: 100vh;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100vh;
+}
+
+.left{
+    background-color: green;
+    grid-column: 1/4;
+    background-image: url(3.jpg);
+    background-position: center;
+    background-size: cover ;
+    
+}
+
+.right{
+    background-color:#3b3131;
+    grid-column: 4/7;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    border-radius: 50px;
+}
+.text{
+    position: absolute;
+    text-align: center;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font: italic;
+    top: 89%;
+    right: 33%;
+    background: linear-gradient(to right, #202020 43%, #cac8c8 35%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.welcome{
+    grid-column: 2/5 ;
+    grid-row: 1/2;
+    font-family: 'Dancing Script', cursive;
+    font-size:33px;
+    color: rgb(194, 207, 208);
+}
+.paragraph{
+    grid-column:1/6 ;
+    grid-row: 2/5;
+    font-family: 'Dancing Script', cursive;
+    font-size:larger;
+
+    color: #fff;
+
+}
+.button{
+    grid-column: 3/4;
+    grid-row: 5/5;
+    align-self: center;
+    padding: 5px;
+    background-color: rgb(124, 124, 148);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-style: italic;
+}

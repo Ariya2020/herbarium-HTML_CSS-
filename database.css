@@ -1,0 +1,148 @@
+.h1{
+    background-image:linear-gradient(to right,#2f3640,#9aacc6);
+    height:50px;
+   text-align: center;
+   padding: 12px;
+   border-radius: 50%;
+   font-style: italic;
+   color: #b2bec3;
+}
+
+
+/* .family ul ul{
+    margin-top: 1px;
+    visibility: hidden;
+    position: absolute;
+    top: 1px;
+    right: 99%;
+    z-index: 598;
+    width: 100%;
+} */
+/* .family ul li:hover > ul{
+    visibility: visible;
+} */
+.family,.family ul,.family ul li,.family ul ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .family ul {
+    position: relative;
+    z-index: 597;
+    float: left;
+  }
+  
+  .family ul li.hover,
+  .family ul li:hover {
+    position: relative;
+    z-index: 599;
+    cursor:pointer;
+  }
+  .family ul ul {
+    margin-top: 1px;
+    visibility: hidden;
+    position: absolute;
+    top: 1px;
+    left: 99%;
+    z-index: 598;
+    width: 100%;
+    font-style: italic;
+  }
+  .active1 ul li {
+    margin-top: 0px;
+    visibility:inherit;
+    position: absolute;
+    bottom:-200px;
+    left: 0%;
+    z-index: 599;
+    width: 100%;
+    font-style: italic;
+  }
+  .active2 ul li {
+    margin-top: 0px;
+    visibility:inherit;
+    position: absolute;
+    bottom:-200px;
+    left: 0%;
+    z-index: 599;
+    width: 100%;
+    font-style: italic;
+  }
+  .family ul li:hover > ul {
+    visibility: visible;
+  }
+  /* .active1 ul li:hover > a {
+    visibility: visible;
+  } */
+  
+  .family {
+    font-size: 10px;
+    width: 120px;
+    box-shadow: 2px 5px 30px rgba(152, 18, 18, 0.1);
+  }
+  .family ul a,
+  .family ul a:link,
+  .family ul a:visited {
+    display: block;
+    color: #848889;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  .family > ul {
+    float: none;
+  }
+  .family ul {
+    background: rgb(238, 235, 247);
+  }
+  .family > ul > li {
+    border-left: 3px solid #b3c5e9;
+  }
+  .family > ul > li > a {
+    padding: 5px 5px;
+  }
+  .family > ul > li:hover {
+    border-left: 3px solid #3dbd99;
+  }
+  .family ul li:hover > a {
+    color: #8ca9a9;
+  }
+  .family > ul > li:hover {
+    background: #f6f6f6;
+  }
+  
+  /* زیرمنوها - زیر آیتم ها */
+  .family ul ul a:link,
+  .family ul ul a:visited {
+    font-weight: 300px;
+    font-size: 12px;
+  }
+  .family ul ul {
+    width: 180px;
+  }
+  .family ul ul a {
+    padding: 2px 0;
+    border-bottom: 2px solid #e49b9b;
+  }
+  .family ul ul li {
+    padding: 0 10px;
+    background: rgb(240, 238, 244);
+  }
+  .family ul ul ul li {
+    padding: 5px;
+    background: rgb(251, 253, 252);
+    width: 410px;
+    border-radius: 30px;
+  }
+  .family ul ul li:last-child {
+    padding-bottom: 5px;
+  }
+  .family ul ul li:first-child {
+    padding-top: 5px;
+  } 
+   .family ul ul li:last-child > a {
+    border-bottom:#e49b9b;
+  } 
+   
+ 
+  
